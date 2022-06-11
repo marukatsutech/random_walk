@@ -1,4 +1,4 @@
-# Random walk of a dot with circles
+# A random walking dot with circles
 import math
 import numpy as np
 import matplotlib.pyplot as plt
@@ -51,7 +51,7 @@ def update(f):
 
 
 def set_axis():
-    ax.set_title("Random walk of a dot with circles")
+    ax.set_title("A random walking dot with circles")
     ax.set_xlabel("x")
     ax.set_ylabel("y")
     ax.set_xlim(xmin, xmax)
